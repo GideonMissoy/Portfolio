@@ -6,16 +6,17 @@ const Hero = () => {
   return (
     <section
       className='flex justify-around items-center mx-7 space-x-11
-   lg:flex-row ssm:flex-col ssm:space-y-7 text-black'
+   lg:flex-row ssm:flex-col ssm:space-y-7 text-white'
     >
       <div className='lg:w-2/3 ssm:w-fit'>
         <div className='pl-7'>
-          <p className='text-4xl mb-5 text-slate-700 pl-7'>I'm</p>
-          <h1 className='text-6xl mb-2 pl-7'>Gideon Kipsang Missoy</h1>
-          <hr className='py-2 border- border-black' />
-          <h1>
-            a Full Stack Software Developer with expertise in writing code with:
-            C, Python, JavaScript, TypeScript, ReactJS, HTML5, and TailwindCSS.
+          <p className='text-3xl mb-5 text-pink-700 pl-8'>Hello. I am</p>
+          <h1 className='text-8xl mb-2 pl-7'>Gideon Missoy</h1>
+          <hr className='py-2 border- border-white' />
+          <h1 className='px-7'>
+            a Full Stack Software Developer with a strong inclination towards
+            backend development. I specialize in creating reliable and scalable
+            web applications, ensuring they perform seamlessly and efficiently.
           </h1>
         </div>
         <div>
