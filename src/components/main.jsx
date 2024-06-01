@@ -1,10 +1,12 @@
 import React from 'react';
 import { Nav } from './nav';
+import Hero from './hero';
 
 const Main = () => {
   return (
-    <div className='bg-indigo-600'>
+    <div className='bg-[#d9d7d2]'>
       <Nav />
+      <Hero />
     </div>
   );
 };
