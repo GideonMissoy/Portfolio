@@ -1,7 +1,19 @@
 import { CgNametag } from 'react-icons/cg';
-import { IoMdArrowDropdownCircle } from 'react-icons/io';
+import { HiMenu } from 'react-icons/hi';
+import { IoCloseCircle } from 'react-icons/io5';
+import { useState } from 'react';
 
 export const Nav = () => {
+  const [toggle, setToggle] = useState(false);
+
+  function openMenu() {
+    setToggle(true);
+  }
+
+  function closeMenu() {
+    setToggle(false);
+  }
+
   return (
     <>
       <div
@@ -36,9 +48,36 @@ export const Nav = () => {
             </a>
           </div>
           <div className='ssm:block lg:hidden'>
-            <IoMdArrowDropdownCircle size={27} />
+            {toggle ? (
+              <IoCloseCircle
+                onClick={closeMenu}
+                size={30}
+                className='cursor-pointer'
+              />
+            ) : (
+              <HiMenu onClick={openMenu} size={30} className='cursor-pointer' />
+            )}
           </div>
         </div>
+      </div>
+      <div className='ssm:block lg:hidden'>
+        {toggle ? (
+          <div className='flex justify-between ml-10'>
+            <ul>
+              <li className='text-white hover:bg-indigo-800 rounded-full text-xl mb-2 px-5 cursor-pointer'>
+                Skills
+              </li>
+              <li className='text-white hover:bg-indigo-800 rounded-full text-xl mb-2 px-5 cursor-pointer'>
+                Projects
+              </li>
+              <li className='text-white hover:bg-indigo-800 rounded-full text-xl mb-2 px-5 cursor-pointer'>
+                Testimonials
+              </li>
+            </ul>
+          </div>
+        ) : (
+          <div></div>
+        )}
       </div>
     </>
   );
