@@ -14,9 +14,9 @@ const Hero = () => {
           <h1 className='text-8xl mb-2 pl-7'>Gideon Missoy</h1>
           <hr className='py-2 border- border-white' />
           <h1 className='px-7'>
-            a Full Stack Software Developer with a strong inclination towards
-            backend development. I specialize in creating reliable and scalable
-            web applications, ensuring they perform seamlessly and efficiently.
+            a Full Stack Software Developer with a bias for backend development.
+            I specialize in creating reliable and scalable web applications,
+            ensuring they perform seamlessly and efficiently.
           </h1>
         </div>
         <div>

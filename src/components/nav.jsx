@@ -17,9 +17,10 @@ export const Nav = () => {
   return (
     <>
       <div className='flex items-center justify-between mx-11 py-5 lg:flex-row'>
-        <div className='text-white font-mono text-3xl tracking-wider flex items-center px-7 hover:pointer'>
+        <div className='text-white text-3xl tracking-wider flex items-center px-7 hover:pointer align-center'>
           <a href='#' className='flex'>
-            <CgNametag /> DevMissoy
+            <CgNametag /> <span className='text-pink-600'>&lt;Dev</span>
+            Missoy<span className='text-pink-600'>/&gt;</span>
           </a>
         </div>
         <div className='space-x-3'>
