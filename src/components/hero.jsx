@@ -8,7 +8,7 @@ const Hero = () => {
       className='flex justify-around items-center mx-7 space-x-11
    lg:flex-row ssm:flex-col ssm:space-y-7 text-white'
     >
-      <div className='lg:w-2/3 ssm:w-fit'>
+      <div className='lg:w-2/3 ssm:w-fit ssm:my-7'>
         <div className='pl-7'>
           <p className='text-3xl mb-5 text-pink-700 pl-8'>Hello. I am</p>
           <h1 className='text-8xl mb-2 pl-7'>Gideon Missoy</h1>
@@ -28,8 +28,8 @@ const Hero = () => {
             Let's build quality in programming and website development with our
             services
           </p>
-          <button className='bg-green-500 hover:bg-green-700 text-black rounded-full px-5    py-2 my-5'>
-            Show More...
+          <button className='bg-green-500 hover:bg-green-700 text-black rounded-full px-5 py-2 my-5'>
+            Hire Me
           </button>
           <br />
           <div className='flex justify-center mt-4 space-x-4 cursor-pointer'>

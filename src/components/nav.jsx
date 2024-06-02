@@ -23,28 +23,49 @@ export const Nav = () => {
             Missoy<span className='text-pink-600'>/&gt;</span>
           </a>
         </div>
-        <div className='space-x-3'>
+        <div className='space-x-2'>
           <div className='ssm:hidden lg:block space-x-2'>
             <a
               href='#'
               className='text-white hover:bg-indigo-800
-          rounded-full px-5 py-2 text-xl'
+          rounded-full px-3 py-2 text-xl'
+            >
+              About
+            </a>
+            <a
+              href='#'
+              className='text-white hover:bg-indigo-800
+          rounded-full px-3 py-2 text-xl'
+            >
+              Services
+            </a>
+            <a
+              href='#'
+              className='text-white hover:bg-indigo-800
+          rounded-full px-3 py-2 text-xl'
+            >
+              Experience
+            </a>
+            <a
+              href='#'
+              className='text-white hover:bg-indigo-800
+          rounded-full px-3 py-2 text-xl'
             >
               Skills
             </a>
             <a
               href='#'
               className='text-white hover:bg-indigo-800
-          rounded-full px-5 py-2 text-xl'
+          rounded-full px-3 py-2 text-xl'
             >
               Projects
             </a>
             <a
               href='#'
               className='text-white hover:bg-indigo-800
-          rounded-full px-5 py-2 text-xl'
+          rounded-full px-3 py-2 text-xl'
             >
-              Testimonials
+              Contact
             </a>
           </div>
           <div className='ssm:block lg:hidden'>
@@ -52,10 +73,14 @@ export const Nav = () => {
               <IoCloseCircle
                 onClick={closeMenu}
                 size={30}
-                className='cursor-pointer'
+                className='cursor-pointer text-white'
               />
             ) : (
-              <HiMenu onClick={openMenu} size={30} className='cursor-pointer' />
+              <HiMenu
+                onClick={openMenu}
+                size={30}
+                className='cursor-pointer text-white'
+              />
             )}
           </div>
         </div>
@@ -65,13 +90,22 @@ export const Nav = () => {
           <div className='flex justify-between ml-10'>
             <ul>
               <li className='text-white hover:bg-indigo-800 rounded-full text-xl mb-2 px-5 cursor-pointer'>
+                About
+              </li>
+              <li className='text-white hover:bg-indigo-800 rounded-full text-xl mb-2 px-5 cursor-pointer'>
+                Services
+              </li>
+              <li className='text-white hover:bg-indigo-800 rounded-full text-xl mb-2 px-5 cursor-pointer'>
+                Experience
+              </li>
+              <li className='text-white hover:bg-indigo-800 rounded-full text-xl mb-2 px-5 cursor-pointer'>
                 Skills
               </li>
               <li className='text-white hover:bg-indigo-800 rounded-full text-xl mb-2 px-5 cursor-pointer'>
                 Projects
               </li>
               <li className='text-white hover:bg-indigo-800 rounded-full text-xl mb-2 px-5 cursor-pointer'>
-                Testimonials
+                Contact
               </li>
             </ul>
           </div>

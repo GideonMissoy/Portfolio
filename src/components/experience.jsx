@@ -9,8 +9,8 @@ function Experience() {
         </h1>
       </div>
       <div>
-        <div className='lg:w-3/5 ssm:w-fit flex justify-start'>
-          <div>
+        <div className='lg:w-3/5 ssm:w-fit flex-row-reverse'>
+          <div className='flex-col'>
             <h1>Backend Development</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
@@ -25,8 +25,8 @@ function Experience() {
             </p>
           </div>
         </div>
-        <div className='lg:w-3/5 ssm:w-fit flex justify-center'>
-          <div>
+        <div className='lg:w-3/5 ssm:w-fit flex-wrap lg:justify-center'>
+          <div className='flex-col'>
             <h1>Frontend Development</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
@@ -42,8 +42,8 @@ function Experience() {
             </p>
           </div>
         </div>
-        <div className='lg:w-3/5 ssm:w-fit flex justify-end'>
-          <div>
+        <div className='lg:w-3/5 ssm:w-fit flex-wrap lg:justify-end'>
+          <div className='flex-col'>
             <h1>Frontend Development</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,

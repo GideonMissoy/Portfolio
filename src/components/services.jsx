@@ -13,7 +13,7 @@ function Services() {
           </h1>
         </div>
         <div className='flex ssm:flex-col lg:flex-row text-white'>
-          <div className='lg:w-1/3 ssm:w-fit justify-center mr-11 px-7 py-4 rounded-3xl  bg-gray-950 hover:bg-gray-900 hover:px-8 hover:py-5'>
+          <div className='lg:w-1/3 ssm:w-fit ssm:my-5 ssm:text-center justify-center lg:mr-11 px-7 py-4 rounded-3xl  bg-gray-950 hover:bg-gray-900 hover:px-8 hover:py-5'>
             <div className='flex justify-center py-1'>
               <DiCss3 size={47} />
             </div>
@@ -27,7 +27,7 @@ function Services() {
               HTML5, CSS3, JavaScript, React.js and Tailwindcss.
             </p>
           </div>
-          <div className='lg:w-1/3 ssm:w-fit justify-center mr-11 px-7 py-4 rounded-3xl bg-gray-950 hover:bg-gray-900 hover:px-8 hover:py-5'>
+          <div className='lg:w-1/3 ssm:w-fit ssm:my-5 ssm:text-center justify-center lg:mr-11 px-7 py-4 rounded-3xl bg-gray-950 hover:bg-gray-900 hover:px-8 hover:py-5'>
             <div className='flex justify-center py-1'>
               <DiAptana size={47} />
             </div>
@@ -40,7 +40,7 @@ function Services() {
               secure and reliable systems using Django, Node.js and TypeScript.
             </p>
           </div>
-          <div className='lg:w-1/3 ssm:w-fit justify-center px-7 py-4 bg-gray-950 hover:bg-gray-900 rounded-3xl hover:px-8 hover:py-5'>
+          <div className='lg:w-1/3 ssm:w-fit ssm:my-5 ssm:text-center justify-center px-7 py-4 bg-gray-950 hover:bg-gray-900 rounded-3xl hover:px-8 hover:py-5'>
             <div className='flex justify-center py-1'>
               <DiDatabase size={47} />
             </div>

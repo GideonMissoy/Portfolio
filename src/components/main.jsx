@@ -4,6 +4,7 @@ import Hero from './hero';
 import About from './about';
 import Services from './services';
 import Experience from './experience';
+import Skills from './skills';
 import Projects from './projects';
 import Footer from './footer';
 import Background from '../assets/background.jpg';
@@ -19,6 +20,7 @@ const Main = () => {
       <About />
       <Services />
       <Experience />
+      <Skills />
       <Projects />
       <Footer />
     </div>
