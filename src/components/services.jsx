@@ -8,7 +8,7 @@ function Services() {
     <>
       <div className='mx-11 mt-7'>
         <div className='text-white py-5'>
-          <h1 className='text-6xl text-green-500 flex justify-end'>
+          <h1 className='text-6xl font-bold text-green-500 flex justify-end'>
             My Services
           </h1>
         </div>
