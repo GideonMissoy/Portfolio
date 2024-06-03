@@ -1,8 +1,8 @@
 import React from 'react';
 import { IoPersonSharp } from 'react-icons/io5';
-import { FaPhoneFlip, FaLocationDot } from 'react-icons/fa6';
+import { FaPhoneFlip, FaLocationDot, FaXTwitter } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
-import { BsLinkedin, BsGithub, BsTwitter, BsInstagram } from 'react-icons/bs';
+import { BsLinkedin, BsGithub, BsInstagram } from 'react-icons/bs';
 import { FaRegCopyright } from 'react-icons/fa';
 
 function Footer() {
@@ -90,7 +90,7 @@ function Footer() {
             size={30}
             className='border-6 hover:border-indigo-800 rounded-full'
           />
-          <BsTwitter
+          <FaXTwitter
             size={30}
             className='border-6 hover:border-indigo-800 rounded-full'
           />

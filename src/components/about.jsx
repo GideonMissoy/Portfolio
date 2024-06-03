@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdDownloadForOffline } from 'react-icons/md';
+import Resume from '../assets/Gideon-CV.pdf';
 
 function About() {
   return (
@@ -10,7 +11,7 @@ function About() {
       <div className='flex flex-col lg:flex-row items-center mx-4 my-3 lg:my-7 lg:mx-9'>
         <div className='w-full lg:w-2/5 my-5 pb-3 lg:pb-5 lg:mr-9'>
           <h1 className='text-2xl lg:text-3xl text-green-500 text-center'>
-            I am <span className='text-pink-500'>&lt;FullStack&gt;</span>{' '}
+            I am a <span className='text-pink-500'>&lt;FullStack&gt;</span>{' '}
             software developer with a bias for{' '}
             <span className='text-pink-500'>&lt;Backend/&gt;</span> Development.
           </h1>

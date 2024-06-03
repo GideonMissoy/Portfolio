@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsLinkedin, BsGithub, BsTwitter, BsInstagram } from 'react-icons/bs';
 import Profile from '../assets/Portfolio.jpeg';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Hero = () => {
   return (
@@ -39,7 +40,7 @@ const Hero = () => {
               size={30}
               className='border-6 hover:border-indigo-800 rounded-full'
             />
-            <BsTwitter
+            <FaXTwitter
               size={30}
               className='border-6 hover:border-indigo-800 rounded-full'
             />
