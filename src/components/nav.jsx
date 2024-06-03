@@ -16,15 +16,15 @@ export const Nav = () => {
 
   return (
     <>
-      <div className='flex items-center justify-between mx-11 py-5 lg:flex-row'>
-        <div className='text-white text-3xl tracking-wider flex items-center px-7 hover:pointer align-center'>
+      <div className='flex items-center justify-between lg:mx-11 mx-7 lg:py-5 lg:flex-row'>
+        <div className='text-white text-3xl tracking-wider flex items-center lg:px-7 hover:pointer align-center'>
           <a href='#' className='flex'>
-            <CgNametag /> <span className='text-pink-600'>&lt;Dev</span>
+            <CgNametag /> <span className='text-pink-600'>&lt;</span>
             Missoy<span className='text-pink-600'>/&gt;</span>
           </a>
         </div>
         <div className='space-x-2'>
-          <div className='ssm:hidden lg:block space-x-2'>
+          <div className='hidden lg:block space-x-2'>
             <a
               href='#'
               className='text-white hover:bg-indigo-800
@@ -39,13 +39,13 @@ export const Nav = () => {
             >
               Services
             </a>
-            <a
+            {/* <a
               href='#'
               className='text-white hover:bg-indigo-800
           rounded-full px-3 py-2 text-xl'
             >
               Experience
-            </a>
+            </a> */}
             <a
               href='#'
               className='text-white hover:bg-indigo-800

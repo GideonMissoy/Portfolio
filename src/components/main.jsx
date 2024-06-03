@@ -11,16 +11,14 @@ import Background from '../assets/background.jpg';
 
 const Main = () => {
   return (
-    <div
-      className='bg-cover bg-fixed bg-center bg-no-repeat min-h-screen'
-      style={{ backgroundImage: `url(${Background})` }}
-    >
+    <div className='bg-slate-950'>
       <Nav />
       <Hero />
       <About />
-      <Services />
-      <Experience />
       <Skills />
+      <Services />
+      {/* <Experience /> */}
+
       <Projects />
       <Footer />
     </div>

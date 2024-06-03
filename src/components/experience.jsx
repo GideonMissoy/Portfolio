@@ -2,12 +2,10 @@ import React from 'react';
 
 function Experience() {
   return (
-    <div className='text-white'>
-      <div className='text-white py-5'>
-        <h1 className='text-6xl font-bold text-green-500 flex justify-end'>
-          My Experience
-        </h1>
-      </div>
+    <div className='mt-5 lg:mt-11 text-white'>
+      <h1 className='mr-4 text-4xl lg:mr-11 lg:text-6xl font-bold text-green-500 flex justify-end'>
+        My Experience
+      </h1>
       <div>
         <div className='lg:w-3/5 ssm:w-fit flex-row-reverse'>
           <div className='flex-col'>

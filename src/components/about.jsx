@@ -3,31 +3,33 @@ import { MdDownloadForOffline } from 'react-icons/md';
 
 function About() {
   return (
-    <div className='lg:mx-11 ssm:mx-5 mt-7 text-white'>
-      <div className='text-white py-5'>
-        <h1 className='text-6xl font-bold text-green-500 flex justify-end'>
-          About Me
-        </h1>
-      </div>
-      <div className='flex lg:flex-row ssm:flex-col items-center mx-9'>
-        <div className='lg:w-2/5 ssm:w-fit ssm:my-5 ssm:pb-5 mr-9'>
-          <h1 className='text-3xl text-green-500 text-center'>
+    <div className='mt-5 lg:mt-11 text-white'>
+      <h1 className='mr-4 text-4xl lg:mr-11 lg:text-6xl font-bold text-green-500 flex justify-end'>
+        About Me
+      </h1>
+      <div className='flex flex-col lg:flex-row items-center mx-4 my-3 lg:my-7 lg:mx-9'>
+        <div className='w-full lg:w-2/5 my-5 pb-3 lg:pb-5 lg:mr-9'>
+          <h1 className='text-2xl lg:text-3xl text-green-500 text-center'>
             I am <span className='text-pink-500'>&lt;FullStack&gt;</span>{' '}
             software developer with a bias for{' '}
             <span className='text-pink-500'>&lt;Backend/&gt;</span> Development.
           </h1>
           <div className='flex mt-7'>
-            <div className='lg:w-1/2 ssm:w-1/2 p-8 rounded-3xl bg-gray-950 hover:border border-green-500 mr-5'>
-              <h1 className='text-6xl'>
+            <div className='lg:w-1/2 w-1/2 p-4 lg:p-8 rounded-3xl bg-gray-950 hover:border border-green-500 mr-3 lg:mr-5'>
+              <h1 className='text-3xl lg:text-6xl'>
                 <span className='text-green-500'>05+</span>
               </h1>
-              <p className='text-white text-2xl pil-4'>PROJECTS COMPLETED</p>
+              <p className='text-white text-1xl lg:text-2xl pl-2 lg:pl-4'>
+                PROJECTS COMPLETED
+              </p>
             </div>
-            <div className='lg:w-1/2 ssm:w-1/2 p-8 rounded-3xl bg-gray-950 hover:border border-green-500'>
-              <h1 className='text-6xl'>
+            <div className='lg:w-1/2 w-1/2 p-4 lg:p-8 rounded-3xl bg-gray-950 hover:border border-green-500'>
+              <h1 className='text-3xl lg:text-6xl'>
                 <span className='text-green-500'>03+</span>
               </h1>
-              <p className='text-white text-2xl pl-4'>YEARS OF EXPERIENCE </p>
+              <p className='text-white text-1xl lg:text-2xl pl-2 lg:pl-4'>
+                YEARS OF EXPERIENCE{' '}
+              </p>
             </div>
           </div>
           <div className='flex justify-center mt-7'>
